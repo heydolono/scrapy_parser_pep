@@ -1,0 +1,25 @@
+Статус,Количество
+"Process, Active",16
+"Process, Withdrawn",8
+"Process, Superseded",3
+"Informational, Active",17
+"Standards Track, Final",260
+"Informational, Superseded",5
+"Informational, Withdrawn",10
+"Informational, Final",43
+"Standards Track, Rejected",109
+"Standards Track, Withdrawn",43
+"Standards Track, Deferred",32
+"Standards Track, Superseded",15
+"Informational, Rejected",13
+"Process, Final",17
+"Process, Rejected",3
+"Process, Deferred",1
+"Informational, Deferred",2
+"Standards Track, Accepted",17
+"Standards Track, Draft",27
+"Informational, Draft",5
+"Standards Track, Provisional",3
+"Process, Draft",1
+"Informational, Accepted",1
+Total,651

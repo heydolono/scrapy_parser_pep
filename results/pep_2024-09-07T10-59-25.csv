@@ -568,6 +568,7 @@ number,name,status
 751,A file format to list Python dependencies for installation reproducibility,"Standards Track, Draft"
 752,Implicit namespaces for package repositories,"Standards Track, Draft"
 754,IEEE 754 Floating Point Special Values,"Standards Track, Rejected"
+755,Implicit namespace policy for PyPI,"Process, Draft"
 789,Preventing task-cancellation bugs by limiting yield in async generators,"Standards Track, Draft"
 801,Reserved,"Informational, Active"
 2026,Calendar versioning for Python,"Process, Draft"

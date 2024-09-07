@@ -1,7 +1,7 @@
 import csv
 import datetime
-from collections import defaultdict
 import os
+from collections import defaultdict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 

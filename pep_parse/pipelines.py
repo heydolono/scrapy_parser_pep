@@ -21,9 +21,9 @@ class PepParsePipeline:
         filename = os.path.join(
             BASE_DIR, 'results', f'status_summary_{current_time}.csv')
         os.makedirs(os.path.dirname(filename), exist_ok=True)
+        rows = [[status, count] for status, count in self.status_count.items()]
+        rows.append(['Total', self.total_count])
         with open(filename, mode='w', encoding='utf-8', newline='') as f:
             writer = csv.writer(f)
             writer.writerow(['Статус', 'Количество'])
-            for status, count in self.status_count.items():
-                writer.writerow([status, count])
-            writer.writerow(['Total', self.total_count])
+            writer.writerows(rows)
